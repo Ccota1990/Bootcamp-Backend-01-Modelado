@@ -14,10 +14,18 @@ Una startup tecnológica va a desarrollar un portal de ELearning y nos ha pedido
 - En principio los vídeos no se van a compartir entre diferentes cursos (aunque sería una amplicacíon interesante del ejercicio.
 - Hay una opcíon para ver la página con la biografía del autor, esta página no va a ser muy visitada.
 
-## Parte obligatoria
-Generar un modelado que refleje los siguiente requerimientos:
+## Parte opcional
+- Tener un sólo nivel de áreas es limitado, lo suyo sería tener una estructura jerárquica, por ejemplo:
+-- Front End >> React
+-- Front End >> React >> Testing
+-- Front End >> Angular
+-- Devops >> Dockers
+-- Devops >> Serverless
+-- Backend >> nodejs
+-- Backend >> nodejs >> Express
+-- Backend >> mongo
 
-- Queremos mostrar los últimos cursos publicados.
-- Queremos mostrar cursos por área (devops / front End ...).
-- Queremos mostrar un curso con sus videos.
-- En un video queremos mostrar su autor.
+- Van a haber videos publicos y privados, es decir:
+-- Un curso puede ser 100% publico.
+-- Un curso puede tener una parte inicial 100% pública, y otra sólo para subscriptores.
+-- Esto implica que hayan usuarios registrados y subscripciones.
