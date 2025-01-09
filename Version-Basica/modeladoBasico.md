@@ -24,4 +24,4 @@ Generar un modelado que refleje los siguiente requerimientos:
 
 ### El planteamiento quedaria de la siguiente manera
 
-![diagrama](Version-Basica/diagramaBasicomodelado.png)
+![diagrama](diagramaBasicomodelado.png)
