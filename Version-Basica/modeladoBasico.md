@@ -25,3 +25,27 @@ Generar un modelado que refleje los siguiente requerimientos:
 ### El planteamiento quedaria de la siguiente manera
 
 ![diagrama](diagramaBasicomodelado.png)
+
+
+#### Colecciones y patrones utilizados:
+
+- Cursos: contiene la información necesaria de los cursos
+  - id
+  - nombre
+  - descripción
+  - fechaCreación: para poder mostrar la fecha y buscar por ella
+  - area: de tipo object para la categoria
+  - lecciones: de tipo object array para mostrar las lecciones/videos del curso
+  - autor
+
+- Lecciones: contiene la informacion de los videos
+  - id
+  - titulo
+  - descripcion
+  - autor: de tipo object para poder mostrar el autor de los videos
+
+- Autores: con la información mas detallada de los autores y sus cursos
+  - id
+  - nombre
+  - biografia
+  - cursos: de tipo object array para poder mostrar los cursos del autor
