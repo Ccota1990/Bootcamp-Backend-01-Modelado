@@ -29,3 +29,28 @@ Una startup tecnológica va a desarrollar un portal de ELearning y nos ha pedido
   - Un curso puede ser 100% publico.
   - Un curso puede tener una parte inicial 100% pública, y otra sólo para subscriptores.
   - Esto implica que hayan usuarios registrados y subscripciones.
+
+  ### El planteamiento quedaria de la siguiente manera
+  
+  ![diagrama](diagramaOpcionalModelado.png)
+  
+  
+  #### Colecciones y patrones utilizados:
+
+- Cursos:
+  - requiereSub: campo boleano para saber si el curso es gratuito o solo para suscriptores
+  - ancestros: array para la estructura jerarquica
+
+- Lecciones:
+  - requiereSub: campo booleano para saber si el curso es gratuito o solo para suscriptores
+
+- Areas: añadida coleccion para tener las categorias de los cursos
+  - id
+  - nombre
+  - ancestros: array
+
+- Usuarios: añadida coleccion para controlar si son usuarios registrados o suscritos
+  - id
+  - nombre
+  - email
+  - suscriptor: booleano para comprobar si es suscriptor o no
