@@ -16,16 +16,16 @@ Una startup tecnológica va a desarrollar un portal de ELearning y nos ha pedido
 
 ## Parte opcional
 - Tener un sólo nivel de áreas es limitado, lo suyo sería tener una estructura jerárquica, por ejemplo:
--- Front End >> React
--- Front End >> React >> Testing
--- Front End >> Angular
--- Devops >> Dockers
--- Devops >> Serverless
--- Backend >> nodejs
--- Backend >> nodejs >> Express
--- Backend >> mongo
+  - Front End >> React
+  - Front End >> React >> Testing
+  - Front End >> Angular
+  - Devops >> Dockers
+  - Devops >> Serverless
+  - Backend >> nodejs
+  - Backend >> nodejs >> Express
+  - Backend >> mongo
 
 - Van a haber videos publicos y privados, es decir:
--- Un curso puede ser 100% publico.
--- Un curso puede tener una parte inicial 100% pública, y otra sólo para subscriptores.
--- Esto implica que hayan usuarios registrados y subscripciones.
+  - Un curso puede ser 100% publico.
+  - Un curso puede tener una parte inicial 100% pública, y otra sólo para subscriptores.
+  - Esto implica que hayan usuarios registrados y subscripciones.

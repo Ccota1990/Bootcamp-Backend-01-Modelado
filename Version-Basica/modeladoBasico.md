@@ -11,7 +11,7 @@ Una startup tecnológica va a desarrollar un portal de ELearning y nos ha pedido
 - Los videos y el contenido de cada artículo se almacenan en un storage S3 y en un headless CMS, en la base de datos sólo almacenaremos los Id's a esos recursos.
 - Los videos se pueden clasificar por temáticas (Devops / Front End / Back End / ...)
 - Los videos tienen autores (ponemos la restricción, un video tiene un autor), un curso puede tener varios autores.
-- En principio los vídeos no se van a compartir entre diferentes cursos (aunque sería una amplicacíon interesante del ejercicio.
+- En principio los vídeos no se van a compartir entre diferentes cursos aunque sería una amplicacíon interesante del ejercicio.
 - Hay una opcíon para ver la página con la biografía del autor, esta página no va a ser muy visitada.
 
 ## Parte obligatoria
@@ -21,3 +21,7 @@ Generar un modelado que refleje los siguiente requerimientos:
 - Queremos mostrar cursos por área (devops / front End ...).
 - Queremos mostrar un curso con sus videos.
 - En un video queremos mostrar su autor.
+
+### El planteamiento quedaria de la siguiente manera
+
+![diagrama](Version-Basica/diagramaBasicomodelado.png)
